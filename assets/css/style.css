@@ -1,0 +1,280 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/assets/images/cyber\ background.webp');
+    background-size: cover;
+    color: white;
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+}
+
+.navbar a {
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #00bfff;
+}
+
+.hero h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+/* Button Styling */
+button {
+    background-color: #00bfff;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0086c3;
+}
+
+/* Info Section */
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.info-box {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.info-box h2 {
+    color: #00bfff;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+footer img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+footer a {
+    color: white;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+header h1 {
+    margin-left: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Banner Styles */
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+/* Call-to-Action Button Styles */
+.cta-button {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cta-button button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.cta-button button:hover {
+    background-color: #0056b3;
+}
+
+/* Info Section Styles */
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.info-box {
+    width: 45%;
+    text-align: center;
+}
+
+.info-box img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 16px;
+}
+
+/* Sign-Up Section */
+.signup-section {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.signup-section button {
+    padding: 10px 30px;
+    font-size: 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.signup-section button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styles - Social Icons */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer .social-icons {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer .social-icons li a img {
+    width: 30px;
+    height: auto;
+}
+/*PRIMA MATRITA BUNA PE DESKTOP SUS AICI!*/
+
+/*MATRITA PENTRU MOBILE*/
+/* MEDIA QUERY FOR MOBILE */
+@media (max-width: 768px) {
+
+    /* Adjust Navbar */
+    .navbar {
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .navbar a {
+        display: block;
+        padding: 10px;
+    }
+
+    /* Hero Section */
+    .hero h1 {
+        font-size: 2.5em;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    /* Info Section: Stack info boxes vertically */
+    .info-section {
+        display: block;
+        padding: 10px;
+    }
+
+    .info-box {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+
+    /* Adjust Button */
+    button {
+        width: 100%;
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    /* Footer */
+    footer {
+        padding: 10px;
+    }
+
+    footer a img {
+        width: 20px;
+    }
+}

@@ -144,7 +144,7 @@ button:hover {
 /* Laptops (769px - 1024px) */
 @media (min-width: 769px) and (max-width: 1024px) {
     .info-box {
-        width: 40%;
+        width: 50%;
         /* Keep boxes a bit narrower on larger screens */
     }
 }
@@ -345,3 +345,15 @@ footer a img {
 .social-icons img:hover {
     transform: scale(1.2); /* Make icon slightly bigger on hover */
 }
+
+/* Circular image with transparency and cropping */
+.safeguarding-img {
+    width: 150px; /* Set the width of the image */
+    height: 150px; /* Set the height of the image */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image scales well */
+    object-position: 100% 50%; /* Crops the image to focus on the right half */
+    opacity: 0.5; /* Adds transparency, adjust as needed (0.0 - fully transparent, 1.0 - fully opaque) */
+    margin-right: 20px; /* Space between image and text */
+    float: left; /* Align image to the left of the text */
+  }

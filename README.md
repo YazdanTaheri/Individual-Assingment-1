@@ -1,25 +1,75 @@
-# CyberShield
+CyberShield
 
-## Overview
-[View live project here](https://github.com/YazdanTaheri/Individual-Assingment-1.git)
+Overview:
+CyberShield is a website intended to provide comprehensive cybersecurity information as well as resources and tools in order to help users protect their digital life, assuring their privacy and security. The website offers educational content on online safety, togheter with secure practices and how to identify possible safeguarding victims. Moreover, the website offers access to essential security tools such as VPN recommendations. CyberShield aims to empower users by enhancing their understanding of cybersecurity threats, offering solutions to mitigate risks. By doing so, CyberShield strives to create a safer online experience, prioritizing users' digital privacy and security.
 
-CyberShield is a website designed to inform users on the fundamentals of cybersecurity and protecting sensitive information. The website acts as a starting point for information regarding cybersecurity, presenting the key information surrounding its importance in today’s society. Alongside this, the website also includes relevant resources, articles, and videos so users can further their knowledge on the topic. CyberWise also aims to make users aware of the potential dangers online in an attempt to create a safer online environment for everyone. The website is designed to cater for any user, no matter their expertise on the subject, by providing information that is concise and clear in a simple layout.
+Must-Have User Stories
 
-## User Stories
-- As a user, I want to be able to view information on the topic that is clear and concise.
-- As a user, I want to be able to navigate the site quickly via a menu / menu bar.
-- As a user, I would like to be able to find relevant information easily.
-- As a user, I want access to tips and guidelines on how to protect sensitive information and signs to look out for.
-- As a user, I would like access to further resources on the topic.
-- As a user, I want access to social media accounts to follow for additional info.
-- As a user, I want the option to sign up for a newsletter regarding updates and news on the topic.
+User Story 1: User Registration
+As a new user, I want to create an account so that I can access personalized resources and tools.
 
-## Design
+Acceptance Criteria:
+•	Users can fill out a registration form with required fields (name, email, password).
+•	Users receive a confirmation email upon successful registration.
+•	Users can log in with their credentials after registration.
 
-### Wireframes
-<details open>
-<summary>Wireframe - desktop 1</summary>
+User Story 2: Educational Content Access
+As a user, I want to access educational content on online safety so that I can learn about protecting my digital life.
 
-#### Wireframe - desktop 1
-![Wireframe image](docs/assets/desktop-wireframe-1.jpg)
+Acceptance Criteria:
+•	Users can browse and search for articles and resources.
+•	Content is organized into categories for easy navigation.
+•	Users can bookmark or save articles for later reference.
 
+User Story 3: Security Tool Recommendations
+As a user, I want to access recommendations for essential security tools (e.g., VPNs) so that I can enhance my online security.
+
+Acceptance Criteria:
+•	Users can view a list of recommended security tools with descriptions.
+•	Users can click on links to visit external sites for more information.
+•	Recommendations are regularly updated based on the latest security trends.
+
+Should-Have User Stories
+
+User Story 1: User Dashboard
+As a registered user, I want to have a dashboard where I can view my saved articles and personalized recommendations.
+
+Acceptance Criteria:
+•	Users can log in and access a dashboard.
+•	Users can see a list of saved articles and recommended tools.
+•	Users can edit their profile information from the dashboard.
+
+User Story 2: Contact Support
+As a user, I want to contact support for assistance with any issues I encounter on the site.
+
+Acceptance Criteria:
+•	Users can fill out a contact form with their name, email, and message.
+•	Users receive a confirmation message after submitting the form.
+•	Support team responds to user inquiries within a specified timeframe (e.g., 24-48 hours).
+
+Could-Have User Stories
+
+User Story 1: Community Forum
+As a user, I want to participate in a community forum to discuss cybersecurity topics with other users.
+
+Acceptance Criteria:
+•	Users can create an account to join the forum.
+•	Users can post questions, share experiences, and reply to others.
+•	Forum content is moderated to ensure a safe environment.
+
+User Story 2: Newsletter Subscription
+As a user, I want to subscribe to a newsletter to receive updates and tips on cybersecurity.
+
+Acceptance Criteria:
+•	Users can enter their email to subscribe to the newsletter.
+•	Users receive regular newsletters with valuable information.
+•	Users can unsubscribe easily at any time.
+
+Design 
+Wireframes 
+Desktop 1
+Desktop 2
+Desktop 3
+Wireframe mobile 1
+Wireframe mobile 2
+Wireframe mobile 3

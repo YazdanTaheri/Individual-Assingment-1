@@ -1,359 +1,206 @@
-/* Styling for the body */
+/* General body and layout */
 body {
     font-family: 'Roboto', sans-serif;
-    color: #f0f0f0;
-    background-color: #0a0a0a;
+    background-color: #111;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
 
-/* Navbar styling */
+/* Navbar styles */
 .navbar {
-    background-color: #000;
+    display: flex;
+    justify-content: center;
+    background-color: #222;
     padding: 15px;
-    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
 }
 
 .navbar a {
-    color: #00ccff;
+    color: #fff;
     text-decoration: none;
-    padding: 15px 20px;
-    font-weight: bold;
+    padding: 14px 20px;
+    font-size: 16px;
 }
 
 .navbar a:hover {
-    background-color: #00ccff;
-    color: #000;
+    background-color: #555;
 }
 
-/* Hero section styling */
+/* Hero Section */
 .hero {
-    background: url('../images/cyber background.webp') no-repeat center center/cover;
-    background-color: #0a0a0a;
-    /* Fallback color */
-    text-align: center;
-    padding: 100px 20px;
-}
+    background-image: url('/assets/images/cc953eee-2187-4fa0-8016-0eab11257f2e.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: blue; /* Ensures the text color is blue */
+    padding: 50px;
+    text-align: center;}
 
-
-
-
-.hero h1 {
-    color: #00ccff;
-    font-size: 4rem;
-    font-family: 'Open Sans', sans-serif;
-}
 
 .hero p {
-    color: #00ccff;
-    /* Blue text color */
-    font-size: 1rem;
-    /* Slightly larger font */
-    font-weight: bold;
-    /* Bold for emphasis */
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-    /* Text shadow to improve contrast */
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 
-    /* Background styling */
-    background-color: rgba(0, 0, 0, 0.7);
-    /* Semi-transparent black */
-    padding: 10px 15px;
-    /* Add padding for spacing */
+.hero-image {
+    width: 400px; 
+    height: auto; 
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
     border-radius: 5px;
-    /* Rounded corners for the background */
-    display: inline-block;
-    /* Makes the background wrap the text content */
+    cursor: pointer;
+    margin-top: 10px;
 }
 
 
+/* Sign Up Button */
+.signup-button {
+    background-color: #00aced;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.signup-button:hover {
+    background-color: #008bb5;
+}
+
+
+/* Sign Up Button */
+.signup-button {
+    background-color: #00aced;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.signup-button:hover {
+    background-color: #008bb5;
+}
+
+/* About Section Styling */
+.about-section {
+    padding: 50px 20px;
+    background-color: #07aac4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 800px;
+    text-align: center;
+    background-color: #fff9f9;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+    border: 2px solid #00ccff;
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    color: #00ccff;
+    margin-bottom: 20px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #000000;
+}
 
 /* Button styling */
 button {
     background-color: #00ccff;
-    color: #000;
-    padding: 10px 20px;
     border: none;
-    font-size: 1rem;
-    font-weight: bold;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
     cursor: pointer;
-    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #007799;
+    background-color: #007ba7;
 }
 
-/* Info Section Styling */
+/* Key Information Section */
 .info-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    /* Align items to the top */
-    margin: 0 auto;
+    justify-content: space-around;
     padding: 20px;
-    max-width: 1200px;
-    /* Keep it centered */
 }
 
-/* Styling for Individual Boxes */
 .info-box {
-    background-color: rgba(0, 0, 0, 0.7);
-    /* Transparent background to blend with the main background */
-    color: #fff;
+    background: #fff;
     border-radius: 10px;
-    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
     padding: 20px;
-    width: 100%;
-    /* Default to full width for smaller devices */
-    max-width: 400px;
-    /* Set a maximum width so it doesn’t get too large on desktops */
-    text-align: left;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    width: 45%; /* Adjust width to fit multiple info boxes side by side */
 }
 
-/* Make headings consistent */
 .info-box h2 {
-    font-size: 1.5rem;
-    color: #00aeef;
-    margin-bottom: 15px;
+    color: #333;
+    margin-bottom: 10px;
 }
 
-/* Small devices (up to 480px) */
-@media (max-width: 480px) {
-    .info-box {
-        width: 90%;
-        /* Take 90% width of the screen */
-        margin: 10px auto;
-    }
+.info-box p, .info-box ul {
+    color: #666;
+    line-height: 1.6;
 }
 
-/* Tablets (481px - 768px) */
-@media (min-width: 481px) and (max-width: 768px) {
-    .info-section {
-        justify-content: space-around;
-        /* Better alignment */
-    }
-
-    .info-box {
-        width: 45%;
-        /* Two boxes side by side */
-    }
-}
-
-/* Laptops (769px - 1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .info-box {
-        width: 50%;
-        /* Keep boxes a bit narrower on larger screens */
-    }
-}
-
-/* Desktops (1025px and above) */
-@media (min-width: 1025px) {
-    .info-section {
-        justify-content: space-evenly;
-        /* Spread the boxes evenly */
-    }
-
-    .info-box {
-        width: 30%;
-        /* More space on desktop screens */
-    }
-}
-
-
-/* Action Steps section */
-.action-steps {
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 50px;
-    color: #f0f0f0;
-    text-align: center;
-}
-
-.action-steps h2 {
-    font-size: 1.8rem;
-    color: #00ccff;
-}
-
-.action-steps ul {
+.info-box ul {
     list-style-type: none;
     padding: 0;
 }
 
-.action-steps ul li {
-    margin: 10px 0;
-    font-size: 1.2rem;
-    line-height: 1.8;
+.info-box li {
+    background: #eee;
+    border-left: 5px solid #333;
+    margin: 5px 0;
+    padding: 10px;
 }
 
-/* Contact Section styling */
-.contact-section {
-    background-color: rgba(0, 0, 0, 0.8);
-    padding: 50px;
-    text-align: center;
+.safeguarding-img, .recognizing-img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto 0;}
+
+/* Social media icons */
+.social-button img {
+    width: 24px;
+    height: 24px;
 }
 
-.contact-section h2 {
-    font-size: 1.8rem;
-    color: #00ccff;
+.social-container {
+    text-align:center; 
 }
-
-.contact-section a {
-    color: #00ccff;
-    text-decoration: none;
-}
-
-.contact-section a:hover {
-    text-decoration: underline;
-}
-
-/* Footer styling */
-footer {
-    background-color: #000;
-    text-align: center;
-    padding: 20px 0;
-}
-
-footer a {
-    margin: 0 10px;
-}
-
-footer a img {
-    filter: brightness(0) invert(1);
-}
-
-/* Move the Contact Us section to the right */
-.contact-us-section {
-    margin-left: 20px;
-    /* Adjust to move section right */
-}
-
-/* Change the Contact Us text color to blue */
-.contact-us-section h2 {
-    color: #00aeef;
-    /* Use the blue color code from the rest of the page */
-}
-
-/* Small devices (up to 480px) */
-@media (max-width: 480px) {
-    .navbar {
-        font-size: 1.2rem;
-    }
-
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .info-section {
-        display: block;
-    }
-
-    .action-steps ul {
-        font-size: 1rem;
-        margin: 10px 0;
-        line-height: 1.6;
-    }
-}
-
-/* Tablets (481px - 768px) */
-@media (min-width: 481px) and (max-width: 768px) {
-    .navbar {
-        font-size: 1.5rem;
-    }
-
-    .hero h1 {
-        font-size: 2.5rem;
-    }
-
-    .info-section {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .action-steps ul {
-        font-size: 1.2rem;
-        margin: 15px 0;
-    }
-}
-
-/* Laptops (769px - 1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
-    .navbar {
-        font-size: 1.8rem;
-    }
-
-    .hero h1 {
-        font-size: 3rem;
-    }
-
-    .info-section {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .action-steps ul {
-        font-size: 1.4rem;
-        margin: 20px 0;
-    }
-}
-
-/* Desktops (1025px and above) */
-@media (min-width: 1025px) {
-    .navbar {
-        font-size: 2rem;
-    }
-
-    .hero h1 {
-        font-size: 3.5rem;
-    }
-
-    .info-section {
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    .action-steps ul {
-        font-size: 1.6rem;
-        margin: 25px 0;
-    }
-}
-/*test icons over here*/
-.social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px; /* space between icons */
-    padding: 20px 0;
-}
-
-.social-icons a {
-    text-decoration: none;
-    color: #ffffff; /* Set the default icon color */
-    font-size: 24px; /* Adjust icon size */
-}
-
-.social-icons a:hover {
-    color: #00aeef; /* Change icon color on hover */
-}
-
-.social-icons img {
-    width: 30px; /* Set icon size if using images */
-    height: 30px;
-    transition: transform 0.3s ease;
-}
-
-.social-icons img:hover {
-    transform: scale(1.2); /* Make icon slightly bigger on hover */
-}
-
-/* Circular image with transparency and cropping */
-.safeguarding-img {
-    width: 150px; /* Set the width of the image */
-    height: 150px; /* Set the height of the image */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image scales well */
-    object-position: 100% 50%; /* Crops the image to focus on the right half */
-    opacity: 0.5; /* Adds transparency, adjust as needed (0.0 - fully transparent, 1.0 - fully opaque) */
-    margin-right: 20px; /* Space between image and text */
-    float: left; /* Align image to the left of the text */
-  }

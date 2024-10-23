@@ -32,25 +32,31 @@ body {
 
 /* Hero Section */
 .hero {
-    background-image: url('/assets/images/cc953eee-2187-4fa0-8016-0eab11257f2e.jpg'); 
+    background-image: url('/assets/images/cc953eee-2187-4fa0-8016-0eab11257f2e.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: blue; /* Ensures the text color is blue */
+    color: blue;
+    /* Ensures the text color is blue */
     padding: 50px;
-    text-align: center;}
+    text-align: center;
+}
 
 
 .hero p {
-    font-size: 1.5rem;
+    border-radius: 50%;
+    background-color: #3e3e3e;
+    /* Dark grey background */
+    ;
+    font-size: 1.3rem;
     color: #fff;
     margin-bottom: 10px;
     margin-top: 10px;
 }
 
 .hero-image {
-    width: 400px; 
-    height: auto; 
+    width: 400px;
+    height: auto;
     margin-bottom: 20px;
 }
 
@@ -165,7 +171,8 @@ button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 20px;
     padding: 20px;
-    width: 45%; /* Adjust width to fit multiple info boxes side by side */
+    width: 45%;
+    /* Adjust width to fit multiple info boxes side by side */
 }
 
 .info-box h2 {
@@ -173,7 +180,8 @@ button:hover {
     margin-bottom: 10px;
 }
 
-.info-box p, .info-box ul {
+.info-box p,
+.info-box ul {
     color: #666;
     line-height: 1.6;
 }
@@ -190,10 +198,12 @@ button:hover {
     padding: 10px;
 }
 
-.safeguarding-img, .recognizing-img {
+.safeguarding-img,
+.recognizing-img {
     display: block;
     max-width: 100%;
-    margin: 20px auto 0;}
+    margin: 20px auto 0;
+}
 
 /* Social media icons */
 .social-button img {
@@ -202,5 +212,151 @@ button:hover {
 }
 
 .social-container {
-    text-align:center; 
+    background-color: #3e3e3e;
+    /* Dark grey background */
+    text-align: center;
+}
+
+.action-steps {
+    position: absolute;
+    background-color: #3e3e3e;
+    /* Dark grey background */
+    color: rgb(255, 255, 255);
+    /* Ensure text is readable */
+}
+
+/*new media format*/
+
+@media (max-width: 768px) {
+
+    /* Navbar adjustments */
+    .navbar {
+        flex-direction: ;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+
+    /* Adjust info-section for better readability */
+    .info-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-box {
+        width: 90%;
+        /* Take more screen space for readability */
+        margin: 15px 0;
+        padding: 15px;
+    }
+
+    /* Hero section adjustments */
+    .hero {
+        padding: 20px;
+    }
+
+    .hero-image {
+        width: 250px;
+        /* Smaller hero image for smaller screens */
+    }
+
+    .hero p {
+        font-size: 1rem;
+        /* Adjust paragraph font size */
+    }
+
+    /* Social container adjustments */
+    .social-container {
+        display: flex;
+    }
+}
+
+@media (max-width: 480px) {
+
+    /* Further adjustments for smaller devices */
+    .navbar a {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .info-box {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .info-box h2 {
+        font-size: 1.2rem;
+    }
+
+    .info-box p,
+    .info-box ul,
+    .info-box li {
+        font-size: 0.9rem;
+    }
+
+    /* Reduce the size of hero elements */
+    .hero-image {
+        width: 200px;
+    }
+
+    .hero p {
+        font-size: 0.9rem;
+    }
+
+    /* Button adjustments for smaller screens */
+    button,
+    .signup-button {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+/* General Media Query for Mobile Screens */
+@media (max-width: 768px) {
+
+    /* Adjust the padding and alignment for the concern section */
+    .concern-section {
+        width: 90%;
+        /* Make sure it fits properly within the screen */
+        margin: 0 auto;
+        /* Center the section */
+        padding: 15px;
+        text-align: left;
+    }
+
+    .concern-section h2 {
+        font-size: 1.5rem;
+        /* Adjust the heading size for readability */
+    }
+
+    .concern-section p,
+    .concern-section li {
+        font-size: 0.9rem;
+        /* Reduce font size for smaller screens */
+    }
+}
+
+
+/* Smaller Mobile Screens */
+@media (max-width: 480px) {
+    /* Further adjustments for smaller mobile devices */
+    .concern-section {
+        padding: 10px; /* Reduce padding for smaller devices */
+        width: 100%; /* Take full width */
+        text-align: left;}
+
+    .concern-section h2 {
+        font-size: 1.2rem;
+        /* Make heading slightly smaller */
+    }
+
+    .concern-section p,
+    .concern-section li {
+        font-size: 0.8rem;
+        /* Adjust text size for better readability */
+    }
 }

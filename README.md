@@ -73,3 +73,9 @@ Desktop 3
 Wireframe mobile 1
 Wireframe mobile 2
 Wireframe mobile 3
+
+Accessibility Considerations
+The CyberShield website adheres to several accessibility guidelines to ensure an inclusive user experience. Text colour contrast meets WCAG standards, enhancing readability for users with visual impairments. The colour palette is designed to accommodate users with colour blindness, ensuring clear differentiation between elements. All images include descriptive alt text to provide context for screen reader users. The site is fully navigable via keyboard, with visible focus indicators on interactive elements. These measures collectively ensure CyberShield is accessible and inclusive for all users.
+
+Features
+Poze cu website  (navbar, hero section, learn section etc, social media)

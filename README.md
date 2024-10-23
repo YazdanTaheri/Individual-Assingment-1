@@ -1,5 +1,7 @@
 # CyberShield
 
+[View live project here](https://github.com/YazdanTaheri/Individual-Assingment-1)
+
 ## Overview:
 CyberShield is a website intended to provide comprehensive cybersecurity information as well as resources and tools in order to help users protect their digital life, assuring their privacy and security. The website offers educational content on online safety, togheter with secure practices and how to identify possible safeguarding victims. Moreover, the website offers access to essential security tools such as VPN recommendations. CyberShield aims to empower users by enhancing their understanding of cybersecurity threats, offering solutions to mitigate risks. By doing so, CyberShield strives to create a safer online experience, prioritizing users' digital privacy and security.
 
@@ -48,6 +50,7 @@ Acceptance Criteria:
 
 ## Design 
 
+![alt text](docs/assets/desktop-wireframe-1.jpg)
 
 
 ## Accessibility Considerations
@@ -57,11 +60,14 @@ The CyberShield website adheres to several accessibility guidelines to ensure an
 
 ## Features
 
-Poze cu website  (navbar, hero section, learn section etc, social media)
-
 
 
 ## Testing and Validation
+
+To test the functionality of the website, devices used were:
+1. iPhone 15 Pro Max (real-life)
+2. MSI Gaming Laptop
+3. AOC Monitor
 
 ![alt text](<docs/assets/CSS-Validation.png>)
 ![alt text](<docs/assets/HTML-Validation.png>)
@@ -115,7 +121,7 @@ This project provided valuable insights into web development and design principl
 2.	https://jigsaw.w3.org/css-validator/
 
 
-##F uture Improvements
+## Future Improvements
 1.	Fix non-clickable buttons: Making sure all buttons are functional and responsive, such as the ‘Sign Up!’ button from the home section. This will allow the user to register or perform relevant actions within the website.
 2.	Improve website design for a better user experience, with more appealing text boxes și better colour pallets.
 3.	Improve mobile responsiveness: Better optimisation of the website layout for mobiles.

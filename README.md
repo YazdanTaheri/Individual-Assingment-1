@@ -63,7 +63,8 @@ Poze cu website  (navbar, hero section, learn section etc, social media)
 
 ## Testing and Validation
 
-
+![alt text](<docs/assets/CSS Validation.png>)
+![alt text](<docs/assets/HTML Validation.png>)
 
 ## Deployment
 

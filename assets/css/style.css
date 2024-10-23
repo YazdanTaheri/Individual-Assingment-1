@@ -244,7 +244,7 @@ button:hover {
 }
 
 
-/*new media format*/
+/new media format/
 
 @media (max-width: 768px) {
 
@@ -491,4 +491,9 @@ button:hover {
     .about-cybersecurity h2, .about-cybersecurity p {
         position: relative;
         z-index: 1; /* Ensure text is above the overlay */
+    }
+
+    .vpn-tools {
+        position: relative;
+        background-color: #222;
     }

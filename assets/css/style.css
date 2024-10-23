@@ -32,15 +32,15 @@ body {
 
 /* Hero Section */
 .hero {
-    background-image: url('/assets/images/cc953eee-2187-4fa0-8016-0eab11257f2e.jpg');
+    background-image: url('/assets/images/tech.jpg'); /* Make sure the path is correct */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: blue;
-    /* Ensures the text color is blue */
+    color: blue; /* Ensures the text color is blue */
     padding: 50px;
     text-align: center;
 }
+
 
 
 .hero p {
@@ -217,13 +217,32 @@ button:hover {
     text-align: center;
 }
 
-.action-steps {
-    position: absolute;
-    background-color: #3e3e3e;
-    /* Dark grey background */
-    color: rgb(255, 255, 255);
-    /* Ensure text is readable */
+/* Adjustments for .action-steps on smaller mobile devices ----------------------------------------------------------------------*/
+@media (max-width: 480px) {
+    .action-steps {
+        font-size: 0.8rem; /* Reduce font size */
+        padding: 10px; /* Add some padding */
+        width: 90%; /* Reduce width to fit nicely */
+        margin: 0 auto; /* Center align */
+        line-height: 1.4; /* Adjust line height for readability */
+        border: 1px solid #333; /* Optional: Add a border for separation */
+        background-color: #2a2a2a; /* Optional: Slightly change background to differentiate */
+    }
+
+    .action-steps h2 {
+        font-size: 1rem; /* Smaller heading size */
+        margin-bottom: 5px; /* Less margin for headings */
+    }
+
+    .action-steps ul {
+        padding-left: 20px; /* Indentation for list items */
+    }
+
+    .action-steps li {
+        padding: 5px 0; /* Compact list item padding */
+    }
 }
+
 
 /*new media format*/
 
@@ -274,6 +293,32 @@ button:hover {
         display: flex;
     }
 }
+
+/* Further adjustments for smaller mobile devices                                                   aici*/
+@media (max-width: 480px) {
+    .concern-section {
+        padding: 10px; /* Reduce padding for smaller devices */
+        width: 100%; /* Take full width */
+        text-align: left; /* Align text to the left for readability */
+        box-sizing: border-box; /* Include padding in the width calculation */
+    }
+
+    .concern-section h2 {
+        font-size: 1.2rem; /* Adjust heading size */
+        margin-bottom: 10px; /* Add some margin below heading */
+    }
+
+    .concern-section p, 
+    .concern-section li {
+        font-size: 0.8rem; /* Adjust text size */
+        line-height: 1.4; /* Adjust line height for readability */
+    }
+
+    .concern-section ul {
+        padding-left: 15px; /* Add padding for bullet points */
+    }
+}
+
 
 @media (max-width: 480px) {
 
@@ -360,3 +405,90 @@ button:hover {
         /* Adjust text size for better readability */
     }
 }
+
+/* Information video link ---------------------------------------------------------------------------*/
+
+
+.video-section {
+    background-image: url('/assets/images/tech.jpg'); /* Use the same image path as the hero section */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: blue; /* Ensures the text color is blue */
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video-section h2, .video-section p, .video-section a {
+    color: white; /* Ensure text is readable on the background */
+}
+
+.video-section a {
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.video-section a:hover {
+    color: #ffcc00; /* Optional: change color on hover for better visibility */
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) 
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        padding: 1rem;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    .signup-button {
+        padding: 0.5rem 1rem;
+    }
+
+    .video-section {
+        padding: 20px;
+    }
+
+    .video-section h2, .video-section p, .video-section a {
+        font-size: 1rem;
+    }
+
+    .video-section a {
+        padding: 0.5rem 1rem;
+    }
+
+    .about-cybersecurity {
+        background-image: url('/assets/images/tech.jpg'); /* Same background image */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        padding: 50px;
+        text-align: center;
+        color: rgb(240, 238, 238); /* Ensure text is readable */
+    }
+   
+    .about-cybersecurity::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(13, 13, 13, 0.7); /* Black overlay with high transparency */
+    }
+    
+    .about-cybersecurity h2, .about-cybersecurity p {
+        position: relative;
+        z-index: 1; /* Ensure text is above the overlay */
+    }

@@ -6,7 +6,6 @@
 CyberShield is a website intended to provide comprehensive cybersecurity information as well as resources and tools in order to help users protect their digital life, assuring their privacy and security. The website offers educational content on online safety, togheter with secure practices and how to identify possible safeguarding victims. Moreover, the website offers access to essential security tools such as VPN recommendations. CyberShield aims to empower users by enhancing their understanding of cybersecurity threats, offering solutions to mitigate risks. By doing so, CyberShield strives to create a safer online experience, prioritizing users' digital privacy and security.
 
 
-
 ## Must-Have User Stories
 
 #### User Story 1: User Registration
@@ -60,7 +59,17 @@ The CyberShield website adheres to several accessibility guidelines to ensure an
 
 ## Features
 
+### Navigation Bar
+![alt text](docs/assets/Nav-Bar.jpg)
 
+### Hero Section
+![alt text](docs/assets/Hero-Section.jpg)
+
+### Informative Boxes
+![alt text](docs/assets/Information-boxes.jpg)
+
+### Social Bar
+![alt text](docs/assets/Social-Bar.png)
 
 ## Testing and Validation
 
